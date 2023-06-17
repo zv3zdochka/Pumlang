@@ -1,7 +1,7 @@
 
  # PumLang
 
-This guide contains information about the PumLang project - the PumLang programming language interpreter. This was a tutorial project, so I'll try to add some comments in the code and describe what works and how it works as much as possible.
+This guide contains information about the PumLang project - the PumLang programming language interpreter based on Python. This was a tutorial project, so I'll try to add some comments in the code and describe what works and how it works as much as possible.
 
 # Description
 
@@ -118,7 +118,7 @@ Suppose we want to write a program that outputs the factorial of a number in Pum
 ```
 
 
-# Running your own code
+# Running your code
 
 Initially, it is planned that the code written in the Pumlang language will be run through the command line. The file which contains the program written in the Pumlang language is called main.plg. The main file in the project, which we will refer to in the command line is called pumlang.py. 
 
