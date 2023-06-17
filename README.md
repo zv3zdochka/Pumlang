@@ -3,6 +3,13 @@
 
 This guide contains information about the PumLang project - the PumLang programming language interpreter based on Python. This was a tutorial project, so I'll try to add some comments in the code and describe what works and how it works as much as possible.
 
+# Installation
+You need to download the archive in which you want the files 
+- pumlang.py
+- Polish_reversed_notation.py
+- Compile.py
+and put them in the same archive. File that you need to choose when you run the command line pumlang.py.
+
 # Description
 
 PumLang is a programming language that implements the following requirements:
