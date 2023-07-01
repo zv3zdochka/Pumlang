@@ -1,7 +1,7 @@
 
  # PumLang
 
-This guide contains information about the PumLang project - the PumLang programming language interpreter based on Python. This was a tutorial project, so I'll try to add some comments in the code and describe what works and how it works as much as possible.
+This guide contains information about the PumLang project - the PumLang programming language interpreter based on Python. This was a tutorial project, so I'll try to add some comments in the code and describe what works and how it works as much as possible. That's why there is so much information about code in the README.
 
 # Installation
 You need to download the archive in which you want the files 
@@ -23,6 +23,17 @@ PumLang is a programming language that implements the following requirements:
 - Error handling: If there is a syntax error in the program, the interpreter should report it by specifying the line where it occurred and briefly describing its nature.
 - Entering a variable value: The language allows the user to enter variable values that are read from the keyboard using the `input()` function in Python.
 - Display expression values on the screen: The language provides a function for displaying expression values on the screen.
+
+
+# Running your code
+
+Initially, it is planned that the code written in the Pumlang language will be run through the command line. The file which contains the program written in the Pumlang language is called main.plg. The main file in the project, which we will refer to in the command line is called pumlang.py. 
+
+```bash.
+
+C:/Pumlang/python pumlang.py main.plg
+```
+
 
 # Architecture
 
@@ -125,15 +136,6 @@ Suppose we want to write a program that outputs the factorial of a number in Pum
 }
 ```
 
-
-# Running your code
-
-Initially, it is planned that the code written in the Pumlang language will be run through the command line. The file which contains the program written in the Pumlang language is called main.plg. The main file in the project, which we will refer to in the command line is called pumlang.py. 
-
-```bash.
-
-C:/Pumlang/python pumlang.py main.plg
-```
 
 # Lexical analysis. 
 
