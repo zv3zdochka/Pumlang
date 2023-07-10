@@ -11,6 +11,11 @@ You need to download the archive in which you want the files
 
 and put them in the same archive. File that you need to choose when you run the command line pumlang.py.
 
+
+## License
+This project is licensed under the MIT license. You are free to use, modify, and distribute it in accordance with the terms of the license.
+
+
 # Description
 
 PumLang is a programming language that implements the following requirements:
